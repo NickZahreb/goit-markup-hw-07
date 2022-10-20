@@ -1,0 +1,16 @@
+.footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: $background-footer;
+}
+
+.footer-section {
+  display: flex;
+  align-items: baseline;
+}
+
+/* Logo footer */
+
+.footer__logo-address {
+  margin-right: 70px;
+}

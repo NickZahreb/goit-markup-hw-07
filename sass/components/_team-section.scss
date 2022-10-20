@@ -1,0 +1,101 @@
+.team-section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+  background-color: $background-btn;
+}
+
+.team-section__title {
+  margin-bottom: 50px;
+
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: $title-text-color;
+}
+
+.infocard {
+  display: flex;
+}
+
+.infocard__items {
+  width: calc((100% - 90px) / 4);
+  margin-right: 30px;
+
+  background-color: $hero-text;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+
+  &:nth-child(4n) {
+    margin-right: 0;
+  }
+}
+
+.infocard__image {
+  display: block;
+}
+
+.infocard__box {
+  padding: 30px 32px;
+}
+
+.infocard__title {
+  margin-bottom: 10px;
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
+  text-align: center;
+
+  color: $title-text-color;
+}
+
+.infocard__work {
+  margin-bottom: 16px;
+
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
+
+  text-align: center;
+}
+
+.infocard__social-list {
+  display: flex;
+  padding: 0;
+  margin: 0;
+}
+
+.infocard__social-list {
+  outline: $accent-color;
+  text-align: center;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.infocard__item:not(:last-child) {
+  margin-right: 10px;
+}
+
+.infocard__link {
+  display: flex;
+
+  width: 44px;
+  height: 44px;
+
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+
+  fill: $icon-color;
+
+  &:hover,
+  &:focus {
+    fill: $primery-background-color;
+    background-color: $accent-color;
+  }
+}

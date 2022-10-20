@@ -1,0 +1,45 @@
+.form-mail {
+  margin-left: 93px;
+}
+
+.form-mail__title {
+  margin-bottom: 20px;
+  color: $hero-text;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.form-mail__box {
+  display: flex;
+  align-items: center;
+}
+
+.form-mail__imput {
+  height: 50px;
+  width: 353px;
+  padding: 11px;
+  margin: 0;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 4px;
+
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.25;
+  letter-spacing: 0.03em;
+
+  background-color: $background-footer;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.form-mail__button {
+  display: flex;
+  align-items: center;
+  margin-left: 12px;
+}
+
+.form-mail__icon {
+  margin-left: 10px;
+}
