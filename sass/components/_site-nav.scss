@@ -30,6 +30,10 @@
     color: $accent-color;
   }
 
+  &--current {
+    color: $accent-color;
+  }
+
   /* Нижнє підкреслювання Current */
 
   &--current::after {
